@@ -1,0 +1,239 @@
+﻿/*HEADER*/
+.page-header {
+    background-color: #C9CDCA;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#homepage {
+    margin: 0px;
+    font-family: 'lato';
+    font-weight: normal;
+    font-size: 60px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#design {
+    margin: 0px;
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+
+/*NAV BAR*/
+#navvy {
+    margin-top: 0px;
+}
+
+#navCont {
+    padding-right: 0px;
+}
+
+#meat {
+    margin-left: 30%;
+}
+
+#properties {
+    text-align: right;
+    background-color: teal;
+    color: white;
+}
+
+#windows {
+    background-color: #837B7C;
+    color: white;
+}
+
+
+
+/*GRID*/
+
+.squares {
+    border: solid .5px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat; /*  provents a repeating image to fill the container if image is resized*/
+}
+
+.topSquares {
+    border: solid .5px;
+    height: 400px;
+    background-size: auto 100%; /* Resizes images to size of container*/
+}
+
+
+/* TEXT BOXES AND BACKGROUND IMAGES*/
+
+div.transbox-large {
+    margin: 175px;
+    background-color: black;
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+}
+
+    div.transbox-large h4 {
+        margin: auto;
+        padding-top: 10px;
+        font-weight: bold;
+        color: white;
+        font-family: lato;
+        text-align: center;
+        opacity: 1;
+    }
+
+    div.transbox-large p {
+        margin: auto;
+        padding-bottom: 10px;
+        font-weight: normal;
+        color: white;
+        font-family: lato;
+        font-size: 10px;
+        text-align: center;
+        opacity: 1;
+    }
+
+div.transbox-map {
+    margin-top: 55%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    opacity: 0.9;
+    filter: alpha(opacity=60);
+}
+
+    div.transbox-map h4 {
+        margin: auto;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        font-weight: bold;
+        color: black;
+        font-family: lato;
+        text-align: center;
+        opacity: 1;
+    }
+
+    div.transbox-map p {
+        margin: auto;
+        padding-bottom: 15px;
+        font-weight: normal;
+        color: black;
+        font-family: lato;
+        text-align: center;
+        opacity: 1;
+    }
+
+#accommodation {
+    margin-top: 25%;
+    margin-left:25%;
+    font-family: lato;
+    text-align: left;
+    color: teal;
+    font-weight: bold;
+}
+
+div.transbox-squares {
+    margin: 80px;
+    background-color: black;
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+}
+
+    div.transbox-squares h5 {
+        margin: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: bold;
+        color: white;
+        font-family: lato;
+        text-align: center;
+        opacity: 1;
+    }
+
+
+#header-position {
+    margin-top: 15%;
+    text-align: center;
+    font-family: Lato;
+    font-weight: bold;
+}
+
+div.transbox-villas {
+    margin-top: 40%;
+    background-color: black;
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+}
+
+    div.transbox-villas h5 {
+        margin: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: bold;
+        color: white;
+        font-family: lato;
+        text-align: center;
+        opacity: 1;
+    }
+
+
+#filler-text {
+    text-align: center;
+    font-family: Lato;
+}
+
+#pic1-1 {
+    background-image: url('Images/tuscany-villas-sant-anna.jpg');
+}
+
+#pic1-2 {
+    background-image: url('Images/Versilia.jpg');
+}
+
+#pic2-2 {
+    background-image: url('Images/42-348x348.jpg');
+}
+
+#pic2-3 {
+    background-image: url('Images/3b-348x348.jpg');
+}
+
+#pic2-4 {
+    background-image: url('Images/314-348x348.jpg');
+}
+
+#pic3-1 {
+    background: url('Images/Villa-Vanna-231-348x348.jpg');
+}
+
+#pic3-3 {
+    background-image: url('Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+}
+
+#pic4-2 {
+    background-image: url('Images/Tartufo_020_In_Evening_Sun.jpg');
+    
+}
+
+#pic4-3{
+   
+    background-color: teal;
+
+}
+
+h4 .rows {
+    margin-top: 10%;
+}
+
+.footer {
+    position: fixed;
+    height: 80px;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+}
